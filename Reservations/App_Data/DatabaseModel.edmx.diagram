@@ -12,15 +12,16 @@
         <EntityTypeShape EntityType="LuxStayReservationModel.Rooms" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="LuxStayReservationModel.Rooms_pictures" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="LuxStayReservationModel.User_accommodations" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="LuxStayReservationModel.Users" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
         <AssociationConnector Association="LuxStayReservationModel.FK_Accommodiations" ManuallyRouted="false" />
         <AssociationConnector Association="LuxStayReservationModel.FK_Accommodiations_Users" ManuallyRouted="false" />
         <AssociationConnector Association="LuxStayReservationModel.FK_Pictures_Rooms" ManuallyRouted="false" />
         <AssociationConnector Association="LuxStayReservationModel.FK_Room_Reserv" ManuallyRouted="false" />
-        <AssociationConnector Association="LuxStayReservationModel.FK_User_Reserv" ManuallyRouted="false" />
-        <AssociationConnector Association="LuxStayReservationModel.FK_Roles" ManuallyRouted="false" />
         <AssociationConnector Association="LuxStayReservationModel.FK_Rooms_Pictures" ManuallyRouted="false" />
-        <AssociationConnector Association="LuxStayReservationModel.FK_Users_Accommodiations" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="LuxStayReservationModel.sysdiagrams" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="LuxStayReservationModel.Users" Width="1.5" PointX="3" PointY="4.375" />
+        <AssociationConnector Association="LuxStayReservationModel.FK_User_Reserv" />
+        <AssociationConnector Association="LuxStayReservationModel.FK_Roles" />
+        <AssociationConnector Association="LuxStayReservationModel.FK_Users_Accommodiations" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -32,6 +32,7 @@ namespace Reservations.App_Data
         public virtual DbSet<Rooms> Rooms { get; set; }
         public virtual DbSet<Rooms_pictures> Rooms_pictures { get; set; }
         public virtual DbSet<User_accommodations> User_accommodations { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Users> Users { get; set; }
     }
 }
